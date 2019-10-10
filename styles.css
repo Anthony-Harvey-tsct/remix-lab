@@ -1,8 +1,17 @@
+html{
+  background-color:#f7bf08;
+}
+header{
+  background-color:#363535;
+}
+html a{
+  color:white;
+}
 body{
   margin:auto;
 }
 img{
-  float:left;
+  flat:left;
 }
 h1{
 
@@ -65,11 +74,12 @@ h4{
 }
 .column{
   display:flex;
-  justify-content: space-around;
+  flex-direction: column;
   max-width: inherit;
   padding-left:80px;
   padding-right:80px;
   padding-bottom: 25px;
+
 }
 .C1{
 padding-right:30px;
@@ -134,13 +144,18 @@ span{
   color:gray;
   padding-top:10px;
 }
-.SPL h3{
+.SPL1 h3{
   border-bottom: 1px solid;
   padding-top:30px;
   color:#24648c;
 }
-.SPL img{
+.SPL1 img{
   margin-left:300px;
-
   width:35%;
+  display: flex;
+    background-color:white;
+}
+.row img {
+  width:15%;
+  float:left;
 }
