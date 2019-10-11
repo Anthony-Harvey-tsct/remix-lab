@@ -3,6 +3,7 @@ html{
 }
 header{
   background-color:#363535;
+
 }
 html a{
   color:white;
@@ -39,8 +40,10 @@ h2{
   color:white;
   text-align:center;
   height:750px;
-  padding-top:80px;
   margin:20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .p2{
   text-transform: uppercase;
